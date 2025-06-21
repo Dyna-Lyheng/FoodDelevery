@@ -5,7 +5,7 @@ const LoginPopUp = ({ setShowlogin }) => {
   const [current, setCurrent] = useState("Login");
 
   return (
-    <div className="absolute z-1 bg-[#00000090] w-full h-full grid ">
+    <div className="absolute z-1 bg-[#00000090] sm:w-[100%] w-[145%] h-[150%] grid ">
       <form
         action=""
         className="place-self-center bg-white text-gray-500  p-8 flex flex-col gap-5 rounded-2xl fade-in"
